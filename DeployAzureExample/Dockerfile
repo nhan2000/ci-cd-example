@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["DeployAzureExample.csproj", "."]
-RUN dotnet restore "./DeployAzureExample.csproj"
+COPY ["DeployAzureExample.csproj", "src/"]
+RUN dotnet restore "src/DeployAzureExample.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR /src
 RUN dotnet build "DeployAzureExample.csproj" -c Release -o /app/build
 
 FROM build AS publish
