@@ -15,7 +15,7 @@ app.UseSwaggerUI();
 
 // Minimal APIs
 app.MapGet("/time/utc", () => Results.Ok(DateTime.UtcNow));
-app.MapGet("/", () => Results.Ok("Ok : Success!"));
+app.MapGet("/", () => Results.Ok("Ok : SuccessHello Nguyen Nhan!"));
 
 app.UseHttpsRedirection();
 
