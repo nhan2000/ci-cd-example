@@ -1,4 +1,4 @@
-# CICD build .NET Core and deploy to Azure App !
+# CICD build .NET Core and deploy to Azure App 
 
 ## 1. Create workflows
 
