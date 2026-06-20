@@ -1,7 +1,7 @@
 # CICD build .NET Core and deploy to Azure App 
 ## 1. Create workflows
 
-✨ In the GitHub Repository, create the .github/workflows/ folder and create the *.yml file inside
+✨ In the GitHub Repository, create the .github/workflows/ folder and create the *.yml file inside.
 
 ![Untitled](CICD%20build%20NET%20Core%20and%20deploy%20to%20Azure%20App%20e3cec8e1d7274c0eb12d8b3d6166aedc/Untitled.png)
 
